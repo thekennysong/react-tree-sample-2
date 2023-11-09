@@ -311,7 +311,6 @@ export default class TreeState {
           if (
             !isStared &&
             (source.data.reduce((acc: any, row: any, index: number) => {
-              debugger;
               if (
                 index >
                   source.data
